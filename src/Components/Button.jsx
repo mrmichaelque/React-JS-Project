@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
-function App() {
-  const [buttonText, setButtonText] = useState('Click me'); // Initial button text
+function Button() {
+  const [buttonText, setButtonText] = useState('Click me'); 
+  // Initial button text
 
   const handleClick = () => {
     // Update button text when clicked
@@ -16,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default Button

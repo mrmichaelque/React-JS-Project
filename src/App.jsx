@@ -1,16 +1,40 @@
-import './App.css';
+import React from 'react';
+import { AppBar, Toolbar, Typography, IconButton, Container } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
+import ButtonGroup from './ButtonGroup.jsx';
+import AppStyle from "./App.css"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+          >
+            <MenuIcon />
+          </IconButton>
+          <Container sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div>
+              <Typography variant="h6" component="div">
+                THE WORK WITHIN QUEUE <span className="heart">♥️</span>
+              </Typography>
+              <Typography>A Webfolio by Michael Que</Typography>
+            </div>
+            <img src="Octocat.png" className="App-logo" alt="logo" />
+            <div>
+              <Typography>Project and Program Management</Typography>
+              <ButtonGroup 
+                buttons={["Profile", "Project",
+                style ref="/.components/.ButtonGroup.css"}] />
+              </ButtonGroup>
+          </Container>
+        </Toolbar>
+      </AppBar>
+      <Container>
         <p>
           <a
             className="App-link"
@@ -21,9 +45,8 @@ function App() {
             Learn React
           </a>
         </p>
-      </header>
+      </Container>
     </div>
   );
 }
-
-export default App;
+export default App

@@ -1,7 +1,6 @@
 import React from "react";
 import { Toolbar, Typography, IconButton, Menu, MenuItem } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import AppBar from "./AppBar"Xcaret dfdffsĝĝfĝhĝĝĝgg
 
 const AppBar = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -44,4 +43,4 @@ const AppBar = () => {
   );
 };
 
-export default AppBar;
+export default AppBar

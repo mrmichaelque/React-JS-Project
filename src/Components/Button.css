@@ -1,6 +1,6 @@
 /*Button Group Styles*/
 .ButtonGroup {
-  width: 150px;
+  inline-size: 150px;
   height: 40px;
   letter-spacing: 0.5px;
   background-color: #e0314b;

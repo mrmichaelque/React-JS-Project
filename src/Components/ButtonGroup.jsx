@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Button from 'React'
-import "./Button.css
  
 const ButtonGroup = ({ buttons }) => {
   const [clickedId, setClickedId] = useState(-1);
@@ -8,14 +7,14 @@ const ButtonGroup = ({ buttons }) => {
   return (
     <>
       {buttons.map((buttonLabel, i) => (
-        <button
+        <Button
           key={i}
           name={buttonLabel}
           onClick={() => setClickedId(i)}
           className={i === clickedId ? "customButton active" : "customButton"}
         >
           {buttonLabel}
-        </button>
+        </Button>
       ))}
     </>
   );

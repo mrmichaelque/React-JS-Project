@@ -1,52 +1,23 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, IconButton, Container } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
-import ButtonGroup from './ButtonGroup.jsx';
-import AppStyle from "./App.css"
+import TextBox from './TextBox'; // Assuming you have a TextBox component
+import ImageHolder from './ImageHolder'; // Assuming you have an ImageHolder component
+import Div from './Components/Div'; // Assuming you have a Div component
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-          >
-            <MenuIcon />
-          </IconButton>
-          <Container sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-            <div>
-              <Typography variant="h6" component="div">
-                THE WORK WITHIN QUEUE <span className="heart">♥️</span>
-              </Typography>
-              <Typography>A Webfolio by Michael Que</Typography>
-            </div>
-            <img src="Octocat.png" className="App-logo" alt="logo" />
-            <div>
-              <Typography>Project and Program Management</Typography>
-              <ButtonGroup 
-                buttons={["Profile", "Project",
-                style ref="/.components/.ButtonGroup.css"}] />
-              </ButtonGroup>
-          </Container>
-        </Toolbar>
-      </AppBar>
+    <Container>
+      <h1>Your React App</h1>
       <Container>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
+        <TextBox value="" onChange={() => {}} placeholder="Type here" />
       </Container>
-    </div>
+      <Container>
+        <ImageHolder src="path/to/your/image.jpg" alt="Image Alt Text" width="200px" height="150px" />
+      </Container>
+      <Div style={{ background: '#eee', padding: '1rem' }}>
+        <p>This is a generic div container with custom styling.</p>
+      </Div>
+    </Container>
   );
-}
+};
+
 export default App

@@ -13,7 +13,7 @@
   
   /* Apply styles to the menu icon */
   .menuIcon {
-    margin-right: 16px; /* Adjust margin as needed */
+    margin-inline-end: 16px; /* Adjust margin as needed */
   }
   
   /* Apply styles to the tabs and dropdown menu */
@@ -29,7 +29,7 @@
   }
   
   /* Apply responsive styles for smaller screens */
-  @media (max-width: 600px) {
+  @media (max-inline-size: 600px) {
     /* Example: Hide the company logo on smaller screens */
     .companyLogo {
       display: none;

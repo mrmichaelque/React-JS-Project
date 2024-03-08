@@ -1,8 +1,7 @@
-# GitHub Codespaces ♥️ React
+# Online Resume ♥️ React ♥️ GitHub 
 
 # Professional Portfolio Landing Page
 
-Welcome to my professional portfolio landing page! This repository contains the code for my personal website designed to showcase my skills, projects, and experiences in the tech industry.
 
 ## Introduction
 

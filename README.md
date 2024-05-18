@@ -1,6 +1,6 @@
-# Online Resume ♥️ React ♥️ GitHub 
+# Webfolio ♥️ React ♥️ GitHub 
 
-# Professional Portfolio Landing Page
+# Webfolio Landing Page
 
 
 ## Introduction

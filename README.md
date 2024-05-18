@@ -9,30 +9,29 @@ I am a [role/position] with [X years/months] of experience in [specific tech fie
 
 ## Table of Contents
 
-- [About Me](#about-me)
-- [Skills](#skills)
-- [Projects](#projects)
-- [Experience](#experience)
-- [Education](#education)
-- [Contact](#contact)
+- [Home](#Home)
+- [Profile](#Profile)
+  --[Experience](#experience)
+  --[Education](#education)
+  --[Contact](#contact)
+- [Projects](#Projects)
+- [Blog](#Blog)
 
-## About Me
+**Home**
+### About Me
 
 In this section, you'll find a brief introduction to who I am, my background, and my career objectives. I'll highlight my core values, work ethic, and what drives me in the tech industry.
 
-## Skills
+### Skills
 
 Here, I'll outline my technical skills, including programming languages, frameworks, tools, and methodologies. I'll provide a comprehensive list of technologies I'm proficient in and briefly discuss my level of expertise in each area.
 
-## Projects
 
-This section showcases some of the key projects I've worked on throughout my career. Each project will include a brief description, technologies used, my role, and any notable achievements or outcomes.
-
-## Experience
+### Experience
 
 I'll detail my professional experience in this section, including my current and previous roles, companies I've worked for, and the responsibilities I've held. I'll also highlight any major accomplishments, contributions, or awards I've received during my career.
 
-## Education
+### Education
 
 In this section, I'll provide information about my educational background, including degrees earned, institutions attended, and any relevant certifications or training programs completed.
 
@@ -40,6 +39,13 @@ In this section, I'll provide information about my educational background, inclu
 
 To get in touch with me, please reach out via [email/LinkedIn/other preferred contact method]. I'm open to discussing new opportunities, collaborations, or simply connecting with fellow professionals in the tech industry.
 
+## Projects
+
+This section showcases some of the key projects I've worked on throughout my career. Each project will include a brief description, technologies used, my role, and any notable achievements or outcomes.
+
+## Blog
+
+This section showcases some of the key projects I've worked on throughout my career. Each project will include a brief description, technologies used, my role, and any notable achievements or outcomes.
 ## License
 
 This project is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details.
